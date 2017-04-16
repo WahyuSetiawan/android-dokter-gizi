@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background = "#b8e4fb"
+  android:orientation="vertical">
+  
+<TableLayout
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical">
+</TableLayout>  
+
+  <ScrollView
+android:layout_width = "fill_parent"
+android:layout_height= "wrap_content"
+>
+
+<LinearLayout
+	android:gravity = "center"
+  	android:layout_width="match_parent"
+  	android:layout_height="match_parent"
+  	android:background = "@drawable/bgutama"
+  	android:layout_marginTop = "10dp"
+	android:layout_marginLeft = "7dp"
+	android:layout_marginRight= "7dp"
+	android:layout_marginBottom= "10dp"
+  	android:layout_gravity = "center"
+  	android:orientation="vertical">
+
+<Button
+	android:id = "@+id/GizidanASI"
+	android:layout_width = "wrap_content"
+	android:layout_height= "wrap_content"
+	android:layout_gravity = "center"
+	android:background = "@drawable/gizibayi"
+/>  
+
+<Button
+	android:id = "@+id/GiziBalita"
+	android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content"
+	android:layout_gravity = "center"
+	android:background = "@drawable/gizibalita"
+/>
+
+<Button
+	android:id = "@+id/GiziAnakSekolah"
+	android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content"
+	android:layout_gravity = "center"
+	android:background = "@drawable/gizianaksekolah"
+/>
+
+<Button
+	android:id = "@+id/GiziRemaja"
+	android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content"
+	android:layout_gravity = "center"
+	android:background = "@drawable/giziremaja"
+/>
+
+<Button
+	android:id = "@+id/GiziOrangDewasa"
+	android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content"
+	android:layout_gravity = "center"
+	android:background = "@drawable/giziorangdewasa"
+/>
+
+<Button
+	android:id = "@+id/GiziLansia"
+	android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content"
+	android:layout_gravity = "center"
+	android:background = "@drawable/gizilansia"
+/>
+
+</LinearLayout>  
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/portal"
+        android:title="Bantuan"/>
+    <item
+        android:id="@+id/tentang1"
+        android:title="Tentang Saya"/>
+    <item
+        android:id="@+id/profilanak"
+        android:title="Profil Anak"/>
+
+</menu>

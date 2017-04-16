@@ -1,0 +1,49 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#b8e4fb"
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:stretchColumns="1"
+	>
+	
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Berat Badan Ideal untuk remaja dan dewasa. dapat dihitung dengan rumus BBI = (Tinggi Badan - 100) * 90%. Untuk lebih jelasnya silahkan mengisi kotak tinggi badan (dalam cm) dan menekan tombol hitung." />
+   
+    <TextView
+		android:text=""
+	/>
+    
+	<TableRow>
+		<TextView android:text=" Tinggi Badan (cm) :"
+		    android:textColor="#000000" />
+		<EditText android:id="@+id/txttinggibadan"
+		    android:inputType="numberSigned|numberDecimal" />
+	</TableRow>
+
+	<Button android:id="@+id/hitung"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Hitung"
+		android:onClick="hitung"
+	/>
+
+	<TextView 
+	    android:text=""
+	    />
+
+<TextView
+        android:id="@+id/txthasil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="" 
+    />
+	
+</TableLayout>

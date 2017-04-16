@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f8f9fe"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/headerCalendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header_background"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/previous"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:width="100dp"
+                android:text="&lt;&lt;" />
+
+            <TextView
+                android:id="@+id/monthyear"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="TextView"
+                android:width="100dp" />
+
+            <TextView
+                android:id="@+id/Next"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text=">>"
+                android:width="100dp" />
+
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gridView1"
+            android:layout_width="300dp"
+            android:layout_height="fill_parent"
+            android:background="#f8f9fe"
+            android:numColumns="3"
+            android:smoothScrollbar="true" >
+        </GridView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/text_field"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/calendartext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+</LinearLayout>

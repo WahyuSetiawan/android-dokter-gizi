@@ -1,0 +1,51 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#b8e4fb"
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:stretchColumns="1"
+	>
+	
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Berat Badan Ideal untuk anak umur 1-10 tahun dapat dihitung dengan rumus BBI = (umur(thn)*2)+8. Untuk lebih jelasnya silahkan mengisi kotak umur (dalam tahun) dan menekan tombol hitung." />
+    
+    <TextView
+		android:text=""
+	/>
+    
+	<TableRow>
+		<TextView android:text=" Umur (thn) :"
+		    		android:textColor="#000000" />
+		<EditText android:id="@+id/txtumur"
+		    android:inputType="numberSigned|numberDecimal" />
+	</TableRow>
+
+
+	<Button android:id="@+id/hitung"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Hitung"
+		android:onClick="hitung"
+	/>
+   
+	<TextView
+		android:text=""
+	/>
+
+    
+<TextView
+        android:id="@+id/txthasil"
+        android:textColor="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+    />
+
+</TableLayout>

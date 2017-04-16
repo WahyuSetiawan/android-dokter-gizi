@@ -1,0 +1,36 @@
+<com.daniel.doktergizi.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+
+    <Button
+        android:id="@+id/gizidaurgidup"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/lifecycle"
+        android:text="Gizi Daur Hidup"
+        android:textSize="10dp" />
+    
+    <Button
+        android:id="@+id/kalkulator"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/calculator"
+        android:text="Kalkulator BBI"
+        android:textSize="10dp" />
+    
+    <Button
+        android:id="@+id/news"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/news"
+        android:text="Berita Gizi"
+        android:textSize="10dp" />
+	
+    <Button
+        android:id="@+id/catatan"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/note2"
+        android:text="Catatan"
+        android:textSize="10dp" />
+    
+</com.daniel.doktergizi.DashboardLayout>
